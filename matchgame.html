@@ -1,0 +1,142 @@
+<!-- Matching Game using Pantone's Colour of the Year for 2015-2021 -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<title>MatchGame</title>
+	<meta charset="UTF-8">
+	<style>
+		.content {
+			max-width: 500px;
+			margin: auto;
+		}
+		.headerfont {font-family: Helvetica; }
+		table, td { border: 1px solid black; }
+		table { border-collapse: collapse; 
+				width: 500px;
+				height: 500px;
+			  }
+		td { padding: 5px; width: 25%; height: 25%; }
+		.cellcolour { 
+			width: 100%; 
+			height: 80%; 
+			text-align: center;
+			border-radius: 8px;
+			padding: 10px 0;
+		}
+		.colourname {  font-family: Helvetica; }
+		.btn { 	
+			border: none; 
+			padding: 15px 32px; 
+			text-align: center; 
+			font-size: 16px; 
+			cursor: pointer; 
+			background-color: #4CAF50; 
+			color: white; 
+			border-radius: 8px;
+		}
+		.hide { display: none; }
+		.noclick { pointer-events: none; }
+	</style>	
+	<body>
+		<div class='content'>
+			<div style='text-align:center'>
+				<h1 class="headerfont">Colour of the Year Match Game!<h1>
+				<h5 class="headerfont">by Laura Graham<h5>
+				<button class='btn' onclick='startGame()'>Start Matching</button>
+			</div>
+
+			<table>
+				<tr>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #F5DF4D;' title='illuminating'>
+							<span class='colourname'>Illuminating<br/>(2021)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #939597;' title='grey'>
+							<span class='colourname'>Ultimate Grey<br/>(2021)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #0F4C81;' title='blue'>
+							<span class='colourname' style='color: white;'>Classic Blue<br/>(2020)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #FA7268;' title='coral'>
+							<span class='colourname'>Living Coral<br/>(2019)</span>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #5F4B8B;' title='violet'>
+							<span class='colourname' style='color: white;'>Ultra Violet<br/>(2018)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #88B04B;' title='green'>
+							<span class='colourname'>Greenery<br/>(2017)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #F7CACA;' title='rose'>
+							<span class='colourname'>Rose Quartz<br/>(2016)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #93A9D1;' title='serenity'>
+							<span class='colourname'>Serenity<br/>(2015)</span>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #F5DF4D;' title='illuminating'>
+							<span class='colourname'>Illuminating<br/>(2021)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #939597;' title='grey'>
+							<span class='colourname'>Ultimate Grey<br/>(2021)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #0F4C81;' title='blue'>
+							<span class='colourname' style='color: white;'>Classic Blue<br/>(2020)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #FA7268;' title='coral'>
+							<span class='colourname'>Living Coral<br/>(2019)</span>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #5F4B8B;' title='violet'>
+							<span class='colourname' style='color: white;'>Ultra Violet<br/>(2018)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #88B04B;' title='green'>
+							<span class='colourname'>Greenery<br/>(2017)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #F7CACA;' title='rose'>
+							<span class='colourname'>Rose Quartz<br/>(2016)</span>
+						</div>
+					</td>
+					<td class='cell'>
+						<div class='cellcolour' style='background: #93A9D1;' title='serenity'>
+							<span class='colourname'>Serenity<br/>(2015)</span>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<script src="matchgame.js"></script>
+	</body>
+
+</html>
